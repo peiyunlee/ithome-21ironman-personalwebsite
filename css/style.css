@@ -20,7 +20,8 @@ a {
 .header-content {
   background-color: #fff5da;
   height: 70px;
-  padding: 0 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,4 +43,74 @@ a {
 .nav__text {
   font-family: "Noto Sans TC", sans-serif;
   letter-spacing: 3px;
+}
+
+/* primary */
+
+.primary-content {
+  background-color: #fff5da;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.wrapper-primary-text {
+  width: 40%;
+}
+
+.primary__main-img {
+  width: 60%;
+  height: 100%;
+}
+
+.section__title {
+  font-family: "Philosopher";
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.primary__title {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.primary__title > span {
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.primary__text {
+  color: #333;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.link-button {
+  display: inline-block;
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 2px;
+  background-color: #000;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+/* .link-button:hover {
+  background-color: #ffb500;
+  transition: all 0.2s;
+} */
+
+.primary__link-button {
+  margin-bottom: 40px;
+}
+
+.primary__social {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
