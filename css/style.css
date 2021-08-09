@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap");
 body {
   margin: 0;
+  font-family: "Noto sans TC", sans-serif;
+  letter-spacing: 1px;
+  color: #333;
 }
 
 a {
@@ -10,6 +13,7 @@ a {
 
 .wrapper-content {
   width: 1024px;
+  box-sizing: border-box;
 }
 
 .header-content {
@@ -25,7 +29,6 @@ a {
 .logo {
   font-family: "Fira Sans Extra Condensed", sans-serif;
   font-size: 24px;
-  letter-spacing: 1px;
   text-decoration: underline;
 }
 
@@ -36,7 +39,6 @@ a {
 }
 
 .nav__text {
-  font-family: "Noto Sans TC", sans-serif;
   letter-spacing: 3px;
 }
 
@@ -79,15 +81,11 @@ a {
 }
 
 .primary__text {
-  font-family: "Noto Sans TC", sans-serif;
-  color: #333;
   margin-bottom: 25px;
-  letter-spacing: 1px;
 }
 
 .link-button {
   display: inline-block;
-  font-family: "Noto Sans TC", sans-serif;
   letter-spacing: 2px;
   background-color: #000;
   color: white;
@@ -109,4 +107,47 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* selected works */
+
+.secondary-content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-selected-works {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary__title {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.work__title {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.work__position {
+  height: 46px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.secondary__link-button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.link-text {
+  text-decoration: underline;
+  font-weight: bold;
 }
