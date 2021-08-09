@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap");
 body {
-  padding: 0;
   margin: 0;
 }
 
@@ -46,6 +45,7 @@ a {
 .primary-content {
   background-color: #fff5da;
   display: flex;
+  align-items: center;
   padding-top: 50px;
   padding-bottom: 80px;
   padding-left: 30px;
@@ -75,8 +75,7 @@ a {
 
 .primary__title > span {
   color: white;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .primary__text {
