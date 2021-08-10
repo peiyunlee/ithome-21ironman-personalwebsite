@@ -14,6 +14,7 @@ a {
 .wrapper-content {
   width: 1024px;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 .header-content {
@@ -150,4 +151,41 @@ a {
 .link-text {
   text-decoration: underline;
   font-weight: bold;
+}
+
+/* about */
+
+.wrapper-about {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.wrapper-about-text {
+  width: 60%;
+}
+
+.about__img {
+  margin-top: 40px;
+}
+
+.about__title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.about__skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+.about__skill-item {
+  margin: 2px 60px 2px 0;
+}
+
+.about__link-button {
+  margin: 20px 0 0;
 }
