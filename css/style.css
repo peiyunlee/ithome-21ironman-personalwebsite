@@ -66,11 +66,11 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  header {
+  /* header {
     position: fixed;
     z-index: 10;
     width: 100%;
-  }
+  } */
 
   .header-content {
     transition: background-color 0.2s;
@@ -81,6 +81,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
   }
 
   .cross-button {
